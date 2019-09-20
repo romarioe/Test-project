@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4205A4C92333FDC60073D502 /* ResponseCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4205A4C82333FDC60073D502 /* ResponseCodes.swift */; };
+		4205A4CB23341A850073D502 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4205A4CA23341A850073D502 /* Circles.swift */; };
+		42C37A6B2332AFEE00C182E9 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C37A6A2332AFEE00C182E9 /* SettingsTableViewController.swift */; };
+		42C37A6D2332B47D00C182E9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C37A6C2332B47D00C182E9 /* Settings.swift */; };
 		42E2145A2331496000C30FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E214592331496000C30FB0 /* AppDelegate.swift */; };
 		42E2145C2331496000C30FB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E2145B2331496000C30FB0 /* ViewController.swift */; };
 		42E2145F2331496000C30FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E2145D2331496000C30FB0 /* Main.storyboard */; };
 		42E214612331496200C30FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E214602331496200C30FB0 /* Assets.xcassets */; };
 		42E214642331496200C30FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E214622331496200C30FB0 /* LaunchScreen.storyboard */; };
+		42E2146C23314F8A00C30FB0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E2146B23314F8A00C30FB0 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4205A4C82333FDC60073D502 /* ResponseCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCodes.swift; sourceTree = "<group>"; };
+		4205A4CA23341A850073D502 /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
+		42C37A6A2332AFEE00C182E9 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		42C37A6C2332B47D00C182E9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		42E214562331496000C30FB0 /* KubanTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KubanTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E214592331496000C30FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42E2145B2331496000C30FB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42E2145B2331496000C30FB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		42E2145E2331496000C30FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42E214602331496200C30FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E214632331496200C30FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42E214652331496200C30FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E2146B23314F8A00C30FB0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4220B72D23355DD800FBB0A6 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4205A4CA23341A850073D502 /* Circles.swift */,
+				4205A4C82333FDC60073D502 /* ResponseCodes.swift */,
+				42C37A6C2332B47D00C182E9 /* Settings.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		4220B72E23355DED00FBB0A6 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				42E2146B23314F8A00C30FB0 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		42D3847723355CA300F1933B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				42E2145B2331496000C30FB0 /* ViewController.swift */,
+				42C37A6A2332AFEE00C182E9 /* SettingsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		42E2144D2331496000C30FB0 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				42E214592331496000C30FB0 /* AppDelegate.swift */,
-				42E2145B2331496000C30FB0 /* ViewController.swift */,
+				42D3847723355CA300F1933B /* ViewControllers */,
+				4220B72E23355DED00FBB0A6 /* NetworkService */,
+				4220B72D23355DD800FBB0A6 /* CustomClasses */,
 				42E2145D2331496000C30FB0 /* Main.storyboard */,
 				42E214602331496200C30FB0 /* Assets.xcassets */,
 				42E214622331496200C30FB0 /* LaunchScreen.storyboard */,
@@ -136,7 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E2145C2331496000C30FB0 /* ViewController.swift in Sources */,
+				4205A4CB23341A850073D502 /* Circles.swift in Sources */,
+				42C37A6B2332AFEE00C182E9 /* SettingsTableViewController.swift in Sources */,
+				42E2146C23314F8A00C30FB0 /* NetworkService.swift in Sources */,
+				4205A4C92333FDC60073D502 /* ResponseCodes.swift in Sources */,
 				42E2145A2331496000C30FB0 /* AppDelegate.swift in Sources */,
+				42C37A6D2332B47D00C182E9 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +327,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9FT9L8ULP8;
+				DEVELOPMENT_TEAM = PX26J52WFG;
 				INFOPLIST_FILE = KubanTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,8 +346,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9FT9L8ULP8;
+				DEVELOPMENT_TEAM = PX26J52WFG;
 				INFOPLIST_FILE = KubanTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
